@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\BIG.jpg" />
+    <None Remove="Resources\csgo.jpg" />
+    <None Remove="Resources\fortnite.jpg" />
+    <None Remove="Resources\gears of war.jpg" />
+    <None Remove="Resources\halo.jpg" />
+    <None Remove="Resources\questions.png" />
+    <None Remove="Resources\witcher3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\BIG.jpg" />
+    <Resource Include="Resources\csgo.jpg" />
+    <Resource Include="Resources\fortnite.jpg" />
+    <Resource Include="Resources\gears of war.jpg" />
+    <Resource Include="Resources\halo.jpg" />
+    <Resource Include="Resources\questions.png" />
+    <Resource Include="Resources\witcher3.jpg" />
+  </ItemGroup>
+
+</Project>
